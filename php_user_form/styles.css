@@ -1,0 +1,50 @@
+/*--
+LIGHT_GREY = #F4EEEF
+GREY = #D9D9D9
+DARKER_GREY = #C8C8C8
+TEXT_GREY = #434B44
+WHITE = #FFFFFF
+PINK_ORANGE = #FE0454
+PINK = #F74F9E
+ORANGE = #FF614C
+OCEAN_BLUE = #0E80C6
+GREEN = #CDFF50
+PURPLE = #A92283
+CYAN = #51E5FF
+ */
+
+body {font-family: Arial, Helvetica, sans-serif; 
+    background-image: linear-gradient(to bottom right, #FE0454, #0E80C6);
+}
+
+.form {
+    background-color: #F4EEEF;
+    border-radius: 30px; 
+    padding: 20px; 
+    opacity: 0.6; 
+    height: 600px;
+    width: 400px ;
+    margin-left: 50%;
+    margin-top: 5%;
+    transform: translate(-50%);
+    border: 5px;
+    box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.6);
+}
+
+input, textarea .button {
+    border-radius: 6px;
+    border: #0E80C6;
+    padding: 7px;
+    width: 200px;
+    float: right;
+    margin-right: 30px;
+    border: 0px;
+}
+
+.title {width: 100px; margin: auto;}
+.label {width: 100px; margin-left: 90px;}
+.thanks {color: #F4EEEF;}
+.error {font-size: small;}
+.button {float: none;}
+/* textarea {padding: 20px;} */
+
