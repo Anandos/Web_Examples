@@ -1,0 +1,12 @@
+
+
+body {background-color: lightgrey;}
+hr {border-width: 3px; color: #CA965C;}
+h1, h4 {color: #191919}
+img {height: 200px}
+* {font-family: Helvetica, sans-serif;}
+div {border: 3px inset; padding: 20px;}
+img{padding: 10px}
+
+#profile {border-radius: 6%;}
+.edge {border: 3px none; padding: 50px;}
