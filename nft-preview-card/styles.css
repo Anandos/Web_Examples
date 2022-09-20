@@ -1,0 +1,32 @@
+
+body {background-color: hsl(217, 54%, 11%); color: white;
+  font-family: Helvetica;  }
+
+.card{background-color: hsl(216, 50%, 16%); width: 40%; padding: 20px; margin-top: 10%; border-radius: 20px;
+  box-shadow: 0px 20px 50px 20px hsl(217, 50%, 9%); margin-left: auto; margin-right: auto;
+}
+
+img{border-radius: 10px;}
+img:hover{color: rgb(0, 255, 255);}
+
+.card-title{font-weight: bold;}
+.descrpt, .date, .creation{color: rgb(255, 255, 255, 0.5); font-weight: lighter;}
+hr{border-top: 1px solid rgb(255, 255, 255, 0.5); border-bottom: 0px}
+
+.eth-price{color: rgb(0, 255, 255); display: inline-block; line-height: 1.5}
+.date{display: inline-block; float: right; line-height: 1.5}
+
+.icon-eth, .icon-clock{vertical-align: middle;}
+
+.avatar{float: left; width: 30px; margin-right: 10px; margin-top: 5px; display: inline;
+  border-radius: 100%; border: 1px solid white; }
+.artist{line-height: 1.5}
+.artist-name:hover, .card-title:hover, img:hover{color: rgb(0, 255, 255)}
+
+.attribution{font-size: 11px; margin-top: 100px; margin-bottom: 20px; text-align: center;
+  color: #0A0E15; text-decoration: none;}
+.a{text-decoration: none !important;}
+
+/* @media (max-width: 600px){
+  .card{width: 90%}
+} */
